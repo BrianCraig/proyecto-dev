@@ -5,7 +5,7 @@ Lenguaje a usar: Python o Ruby
 Equipo Front:
 -Kevin Enei
 -Agustín Ortíz
--Nicolás Castellanos
+-Nicolás Castellanos(ElNicko077)
 -Luis Rojas
 
 Equipo Back:
