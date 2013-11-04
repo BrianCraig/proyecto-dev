@@ -9,10 +9,14 @@ Equipo Front:
 *  Agustín Ortíz
 *  Nicolás Castellanos
 *  Luis Rojas
+*  Marcos Zarate
 
 Equipo Back:
 *  Alex Smith(blkmdr en github)
-*  Brian eduardo
-*  Sr Pollo(cachusan)
+*  Brian craig
+*  Sr Pollo (cachusan) ( Marcos Suarez )
+*  Yerson Soto
+*  José Cancino
+*  José Delgado
 
-Se aceptan backs jajaja
+
