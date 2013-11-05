@@ -49,6 +49,12 @@ Aquí se podran intercambiar y depositar la documentación propia
 Como probar el servicio de usuarios ( ver sitios, y probar temas )
 =================
 
+## Es importante, saber que la estructura de los sitios, no esta bien definida.
+
+## Por ahora la Repo genera el texto en una estructura básica
+
+## la estructura se ecuentra ( o quizás no ) en documentacion/html.md
+
 __Requisitos__
 
 > haber instalado NodeJS
