@@ -55,4 +55,78 @@ __Requisitos__
 
 > haber instalado Mysql
 
-En construccion...
+__Requisitos opcionales__
+
+> Es recomendable que tengas a mano, alguna herramienta para manejar mas facilmente las bases de datos. ( si tienes linux te recomiendo MYSQL WorkBench )
+
+Luego, hay dos formas de probar los sitios.
+
+> Abriendo los puertos y apuntando un dominio a tu maquina ( es algo complicado , por ahora no explicare )
+
+> usando el dominio localhost ( o otro de tu preferencia ), modificando el archivo hosts para obtener algunos subdominios apuntando a tu maquina
+
+###Primer Paso###
+
+Asegurate de tener una Database en tu MySQL/MariaDB, con la codificacion automatica de utf8-general-ci, y obviamente de saber el usuario y clave para acceder
+
+Abre el archivo en nodejs/configurar-mysql.js y cambialo con tus configuraciones
+
+en la carpeta de nodejs, ejecuta los siguientes comandos
+
+> npm install
+
+esto instalara los modulos de la App ( express, dnsd y el conector mysql )
+
+> node configurar-mysql.js
+
+esto configurará tu Base de datos, si no esta bien configurado, tirará un error, significa que no has configurado bien nodejs/configurar-mysql.js, modificalo e intenta de nuevo el mismo comando
+
+### Segundo paso ###
+
+Ahora hay que configurar el dominio.
+
+En tal caso que sepas registrar/apuntar tu dominio a tu maquina y abrir los puertos, perfecto.
+
+En otro caso, tendrás que modificar tu archivo hosts ( si ya se medio del año del orto )
+
+en Windows, es el archivo C:\Windows\System32\drivers\etc\hosts
+
+en Linux, /etc/hosts ( requiere privilegios )
+
+agregale las siguientes lineas
+
+> 127.0.0.1 recursos.localhost
+> 127.0.0.1 almacenamiento.localhost
+> 127.0.0.1 cliente1.localhost
+> 127.0.0.1 cliente2.localhost
+
+Los cliente1 y cliente2 son para probar subdominios, si quieres puedes agregar otros como
+
+> 127.0.0.1 wicks
+
+y será otro cliente.
+
+### tercer paso ###
+
+Ahora ya se puede abrir la App.
+
+Ve a la carpeta nodeje, y ejecuta
+
+> node ./
+
+( si estas en linux nescesitas su )
+
+y ahora, puedes probar el usuario de prueba, en http://127.0.0.1/
+
+
+
+
+
+
+
+
+
+
+
+
+
