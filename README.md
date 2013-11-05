@@ -96,8 +96,11 @@ en Linux, /etc/hosts ( requiere privilegios )
 agregale las siguientes lineas
 
 > 127.0.0.1 recursos.localhost
+
 > 127.0.0.1 almacenamiento.localhost
+
 > 127.0.0.1 cliente1.localhost
+
 > 127.0.0.1 cliente2.localhost
 
 Los cliente1 y cliente2 son para probar subdominios, si quieres puedes agregar otros como
