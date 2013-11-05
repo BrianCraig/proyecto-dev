@@ -1,0 +1,4 @@
+La base de datos es una base SQL. MySQL / MariaDB
+Probablemente en produccion se use MariaDB, pero es similar a MySQL, así que se puede usar MySQL para el desarrollo
+
+para configurar la base de datos, en node se modifica el archivo nodejs/configuracion.js .

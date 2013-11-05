@@ -1,0 +1,5 @@
+{ "name": "prueba-node"
+, "engines": { "node": ">= 0.8" }
+, "main": "inicio.js"
+, "dependencies": {"express":"*","dnsd":"0.9.4"}
+}

@@ -1,0 +1,64 @@
+body{
+font-family: 'Open Sans', sans-serif;
+background : #141414
+}
+header{
+padding:20px;
+border-bottom:1px solid #000;
+background:#111;
+position:fixed;
+width:100%;
+}
+header h1{
+font-size:40px;
+color:#ccc
+}
+menu{
+
+position:fixed;
+top: 100px;
+left:40px
+}
+menu ul li{
+color:#ccc !important;
+list-style:none;
+border-left:4px solid #fff;
+padding:20px;
+margin:2px
+}
+menu ul a{
+text-decoration:none !important;
+}
+
+menu ul a:hover li{
+background: #fff;
+color: #000 !important;
+}
+
+article{
+padding: 100px 0 0 300px 
+}
+
+
+
+article h1{
+color:#fff;
+font-size:32px;
+padding-bottom:30px
+}
+
+article p{
+font-size:26px;
+margin:50px 50px 50px 0;
+color:#ccc
+}
+
+footer{
+
+}
+footer p{
+color : #ccc;
+text-align:center;
+padding:10px;
+background:#111
+}
