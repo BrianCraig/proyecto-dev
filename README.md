@@ -113,7 +113,7 @@ y será otro cliente.
 
 Ahora ya se puede abrir la App.
 
-Ve a la carpeta nodeje, y ejecuta
+Ve a la carpeta nodejs, y ejecuta
 
 > node ./
 
