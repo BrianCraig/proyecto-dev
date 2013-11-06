@@ -9,7 +9,7 @@ Proyecto "Clon de Wix"
 > Se separan los __"clientes"__ de los __"visitantes"__.
 
 
-> > Los __"Clientes"__ accederán a _'nuestrodominio.com'_ y manejarán sus sitios desde ahí. El servidor que manejara a los __"Clientes"__ será basado en Apache + PHP + MySQL/MariaDB
+> > Los __"Clientes"__ accederán a _'nuestrodominio.com'_ y manejarán sus sitios desde ahí. El servidor que manejara a los __"Clientes"__ será basado en Apache + PHP + MySQL/MariaDB. 
 
 > > Los __"Visitantes"__ accederán a _'susitio.nuestrodominio.com'_ o _'susitio.com'_, obtendrán recursos de _'recursos.nuestrodominio.com'_ y _'almacenamiento.nuestrodominio.com'_. El servidor que manejará estos clientes será basado en Node.JS + MySQL/MariaDB
 
@@ -17,3 +17,21 @@ Proyecto "Clon de Wix"
 
 > Los __"Temas"__ Para los __"Visitantes"__, tendrán una estructura básica , y responderán a ciertas clases de CSS [Doc en html.md](html.md). Además de eso tendrán un arhivo package.json, que dictará los estilos y scripts que utiliza el __"Tema"__. Un ejemplo de un __"Tema"__ se puede apreciar [aquí](https://github.com/BrianCraig/proyecto-dev/tree/master/recursos/temas/Simple%20y%20Elegante%20-%20Brian%20Craig)
 
+
+## Se nescesita
+
+
+* Diseñar una portada del sitio de los __"Clientes"__ ( por algo se empieza )
+
+* Quien haga el sitio de los __"Clientes"__ , con el único fin de ser funcional ( Para poder administrar )
+
+* Quienes decidan sobre la Estructura de los temas
+
+* Hacer mas Temas, aunque sean ultra-simples, para ayudar a definir la estructura sabiendo los requisitos de los diseños.
+
+* Elegir el nombre de dominio 
+
+
+## Proximo Objetivo
+
+* Tener el servicio funcionando. Ya tenemos el VPS ( Gracias a Alex )
