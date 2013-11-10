@@ -1,6 +1,8 @@
 Estructura en HTML 
 =====
 
+> __Aviso:__ Este documento no llega más que a ser una idea.
+
 Estructura actual ( Básica ) hecha en Jade
 
 ``` 

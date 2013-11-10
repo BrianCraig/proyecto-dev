@@ -1,6 +1,8 @@
 Organización del proyecto
 =============
 
+> __Aviso:__ Este documento no llega más que a ser una idea.
+
 Proyecto "Clon de Wix"
 
 ## Decisiones tomadas
